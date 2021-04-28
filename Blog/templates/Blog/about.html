@@ -1,0 +1,13 @@
+{% extends "Blog/base.html" %}
+
+{% block titleBlock %}
+    {% if title %}
+    <title>About Page - {{ title }}</title>
+    {% else %}
+    <title>About Page</title>
+    {% endif %}
+{% endblock titleBlock %}
+
+{% block content %}
+    <h1> This is the About Page of Blog Application!</h1>
+{% endblock content %}
